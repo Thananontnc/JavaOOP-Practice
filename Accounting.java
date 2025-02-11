@@ -4,6 +4,7 @@ public class Accounting extends Employee{
         System.out.println("I'm Accounting");
     }
     
+    public String skill = "Money Management";
     
 
 }

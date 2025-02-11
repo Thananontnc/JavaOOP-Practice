@@ -4,4 +4,6 @@ public class Programmer extends Employee {
         System.out.println("I'm Programmer with professional coding skill");
     }
     
+    public String skill = "Java , C#";
+
 }

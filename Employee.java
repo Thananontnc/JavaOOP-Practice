@@ -6,13 +6,10 @@ public class Employee {
 
     // Constructor
     public Employee() {
-        this.id = "0";
-        this.name = "Unknown";
-        this.salary = 15000.00;
+        System.out.println("I'm Employee");
     }    
 
-    public Employee(String id , String name , Double salary) {
-        this.id = id;
+    public Employee( String name , Double salary) {
         this.name = name;
         this.salary = salary;
         System.out.println("Create Object Completed");

@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int result = Employee.minSalary;
-        System.out.println(result);
-        System.out.println(Company.name);
-        System.out.println(Company.create_at);
-        Company.service();
+        // int result = Employee.minSalary;
+        // System.out.println(result);
+        // System.out.println(Company.name);
+        // System.out.println(Company.create_at);
+        // Company.service();
         /*Employee e1 = new Employee("2","Thong",15000.00);
         e1.displayEmployee();
 
@@ -38,5 +38,18 @@ public class Main {
 
         System.out.println(e1.getName());
         System.out.println(e2.getName());*/
+
+        Programmer p1 = new Programmer();
+        // p1.setId("1");
+        p1.setName("Thananon");
+        p1.setSalary(4000000.00);
+        p1.displayEmployee();
+
+
+        Accounting ac = new Accounting();
+        ac.setName("Pari");
+        ac.setSalary(30000.00);
+        ac.displayEmployee();
+
     }
 }

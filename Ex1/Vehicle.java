@@ -19,17 +19,18 @@ public class Vehicle {
         System.out.println("The vehicle engine: "+this.engine);
         System.out.println("The used fuel: "+this.fuel);
     }
-    
-    public class Main {
-        public static void main(String[] args) {
-            Car car = new Car();
-            car.specification();
-            car.run();
 
-            Airplane air = new Airplane();
-            air.specification();
-            air.run();
-        }
-        
-    }    
+
 }
+class Main {
+    public static void main(String[] args) {
+        Car car = new Car();
+        car.specification();
+        car.run();
+
+        Airplane air = new Airplane();
+        air.specification();
+        air.run();
+    }
+    
+}  

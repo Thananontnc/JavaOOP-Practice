@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Ex5.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Ex1.Main",
             "projectName": "LearningAdvanceJavaOOP_371dfa18"
         },

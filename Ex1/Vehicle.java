@@ -1,4 +1,4 @@
-package Exercise;
+package Ex1;
 
 public class Vehicle {
     protected String engine;

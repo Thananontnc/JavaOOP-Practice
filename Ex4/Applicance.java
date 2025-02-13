@@ -29,3 +29,19 @@ public class Applicance {
     }
 
 }
+
+class Main {
+    public static void main(String[] args) {
+        WashingMachine  whm = new WashingMachine("LG", 1500,10);
+        whm.turnOn();
+        whm.turnOff();
+        
+        Refrigerator rfg = new Refrigerator("Samsung", 800, 4);
+        rfg.turnOn();
+        rfg.turnOff();
+    
+    
+    
+    }
+    
+}

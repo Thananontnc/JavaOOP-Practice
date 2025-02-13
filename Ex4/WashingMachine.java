@@ -16,12 +16,14 @@ public class WashingMachine extends Applicance {
 
     @Override
     public void turnOn() {
+        System.out.println("Washing Machine: Brand " + getBrand() + ", Power " + getPower() + "W");
         System.out.println("The washing machine is now ON.");
+        System.out.println("Washing clothes...");
     }
 
     @Override
     public void turnOff() {
-        System.out.println("The washing machine is now OFF.");
+        System.out.println("The washing machine is now OFF.\n");
     }
 
 }

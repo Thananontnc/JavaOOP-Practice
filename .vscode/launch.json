@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Ex9.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Ex8.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Ex7.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Ex4.Main",
             "projectName": "LearningAdvanceJavaOOP_371dfa18"
         },

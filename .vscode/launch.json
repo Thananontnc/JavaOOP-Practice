@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Loan",
+            "request": "launch",
+            "mainClass": "Loan",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "BankLoanSystem",
+            "request": "launch",
+            "mainClass": "BankLoanSystem",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Customer",
+            "request": "launch",
+            "mainClass": "Ex12.Customer",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Ex11.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Ex10.Main",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Ex9.Main",

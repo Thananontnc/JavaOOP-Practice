@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "composition",
+            "request": "launch",
+            "mainClass": "Week09.mypack.composition",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
             "name": "aggregation2",
             "request": "launch",
             "mainClass": "Week09.mypack.aggregation2",

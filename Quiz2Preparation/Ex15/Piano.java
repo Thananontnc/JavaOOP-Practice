@@ -1,4 +1,4 @@
-package Ex15;
+package Quiz2Preparation.Ex15;
 
 public class Piano extends Instrument {
     

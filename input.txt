@@ -1,0 +1,35 @@
+a. (5 marks) Create entire classes defined in the class diagram.
+b. (7 marks) Assign the access permission for all attributes and methods.-
+c. (2 marks) Generate a default constructor for only the class "Vehicle"
+d. (6 marks) Print an empty string when the method "run" of class "Vehicle" is invoked.
+e. (4 marks) Print the string "Run on the road" if an object is a car. And the string "Fly on the sky" when the object is an airplane.
+f. (6 marks) At the main method, create an object of a car, airplane, and method "ride" to invoke two methods - including specification and run.
+Note that the body of the method "ride" must contain only two methods, as defined below.
+
+Vehicle
+- engine: String 
+- fuel: String
++ Vehicle ()
++ specification ()
++ run ()
+
+Car 
+# Wheel: int 
++ run()
+
+Airplane 
+
++ run()
+
+
+obj. specification() ;
+obj. run () :
+
+for printing the following sentences:
+
+The vehicle engine: Hybrid engines
+The used fuel: Gasoline / Electric
+Run on the road.
+The vehicle engine: Hybrid engines
+The used fuel: Gasoline / Electric
+Fly on the sky.

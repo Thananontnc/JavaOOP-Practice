@@ -1,0 +1,101 @@
+Here is a solution to the problem based on your requirements:
+
+```java
+// Class Diagram Implementation
+
+class Vehicle {
+    // Attributes
+    protected String engine; // protected for subclasses to access
+    protected String fuel; // protected for subclasses to access
+    
+    // Default constructor
+    public Vehicle() {
+        this.engine = "Hybrid engines";
+        this.fuel = "Gasoline / Electric";
+    }
+    
+    // Methods
+    public void specification() {
+        System.out.println("The vehicle engine: " + engine);
+        System.out.println("The used fuel: " + fuel);
+    }
+    
+    public void run() {
+        System.out.println(""); // Print an empty string
+    }
+}
+
+class Car extends Vehicle {
+    private int wheel; // private to restrict access
+    
+    // Constructor
+    public Car(int wheel) {
+        super(); // call the default constructor of the superclass (Vehicle)
+        this.wheel = wheel;
+    }
+    
+    @Override
+    public void run() {
+        System.out.println("Run on the road."); // Override the run method to print specific message for Car
+    }
+}
+
+class Airplane extends Vehicle {
+    // Constructor
+    public Airplane() {
+        super(); // call the default constructor of the superclass (Vehicle)
+    }
+    
+    @Override
+    public void run() {
+        System.out.println("Fly on the sky."); // Override the run method to print specific message for Airplane
+    }
+}
+
+// Main Method
+public class Main {
+    public static void main(String[] args) {
+        Car car = new Car(4); // Create a Car object with 4 wheels
+        Airplane airplane = new Airplane(); // Create an Airplane object
+        
+        ride(car); // Invoke the ride method for Car
+        ride(airplane); // Invoke the ride method for Airplane
+    }
+    
+    public static void ride(Vehicle obj) {
+        obj.specification();
+        obj.run();
+    }
+}
+```
+
+### Explanation:
+
+#### a. Create entire classes defined in the class diagram
+
+- **Vehicle**: This is a base class with attributes `engine` and `fuel`, and methods `specification()` and `run()`.
+- **Car**: Inherits from `Vehicle`. It has an additional attribute `wheel`.
+- **Airplane**: Also inherits from `Vehicle`.
+
+#### b. Assign the access permission for all attributes and methods
+
+- Attributes `engine` and `fuel` are set to `protected`, so they can be accessed by subclasses.
+- The constructor of `Car` is `public`, as it needs to be accessible to create instances.
+
+#### c. Generate a default constructor for only the class "Vehicle"
+
+A default constructor is provided in the `Vehicle` class, initializing `engine` and `fuel`.
+
+#### d. Print an empty string when the method "run" of class "Vehicle" is invoked
+
+The `run()` method in `Vehicle` prints an empty string.
+
+#### e. Print specific messages based on object type
+
+- **Car**: Overrides the `run()` method to print "Run on the road."
+- **Airplane**: Overrides the `run()` method to print "Fly on the sky."
+
+#### f. Create objects and invoke methods in the main method
+
+The `main` method creates instances of `Car` and `Airplane`, then calls the `ride` method, which invokes both `specification()` and `run()`.
+

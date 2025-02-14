@@ -97,6 +97,4 @@ class HomeLoan extends Loan {
     }
 }
 
-// Main Class
-public class BankLoanSystem {
-}
+

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Vehicle",
+            "request": "launch",
+            "mainClass": "Ex14.Vehicle",
+            "projectName": "LearningAdvanceJavaOOP_371dfa18"
+        },
+        {
+            "type": "java",
             "name": "Loan",
             "request": "launch",
             "mainClass": "Loan",

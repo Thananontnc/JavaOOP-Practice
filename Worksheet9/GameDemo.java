@@ -1,8 +1,10 @@
+package Worksheet9;
 /* 
  * Name: Thananon Chounudom
  * ID: 6711424
  * Section: 544
  */
+
 public class GameDemo {
     public static void main(String[] args) {
         Mage mage = new Mage("Gandalf", 100, 15, 30);
